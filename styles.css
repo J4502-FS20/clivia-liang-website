@@ -26,6 +26,9 @@ a:hover {
     font-weight: bold;
     background-color: green;
     color: white;
+}
+
+a:hover img{
     opacity: 0.7;
 }
 
