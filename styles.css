@@ -1,4 +1,44 @@
 body {
-    background-color: lightgreen;
+    background-color: #99DEB6;
     text-align: center;
+}
+h1 {
+    font-family:  'Vollkorn', serif;
+    font-size: 27px;
+    text-transform: uppercase;
+
+}
+h2 {
+    font-family: 'Vollkorn', serif;
+    font-size: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: green;
+    font-family:  'Quicksand', sans-serif;
+}
+
+a:hover {
+
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    opacity: 0.7;
+}
+#joke {
+    background-color: white;
+    font-family: 'Grandstander', cursive;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+#joke p {
+    font-weight: bold;
+
 }
