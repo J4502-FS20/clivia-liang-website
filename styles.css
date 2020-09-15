@@ -49,3 +49,14 @@ a:hover {
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
+
+img {
+    width: 50%;
+    min-width: 350px;
+    max-width: 600px;
+    opacity: 0.75;
+}
+
+ul {
+    list-style-type: none;
+}
