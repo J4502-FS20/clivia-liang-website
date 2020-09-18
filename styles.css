@@ -4,10 +4,13 @@ body {
 }
 
 nav {
-    background-color:#16642E;
+    background-color:#8AD5CC;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px
   }
 
 h1 {
@@ -26,7 +29,6 @@ p {
 
 a {
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: bold;
     color: #A56206;
     font-family:  'Quicksand', sans-serif;
