@@ -34,16 +34,28 @@ a {
     font-family:  'Quicksand', sans-serif;
 }
 
-nav a {
-   font-weight: bold;
-    font-size: 30px;
-    text-transform: uppercase;}
+
 
 a:hover {
     font-weight: bold;
     background-color: #A56206;
     color: white;
     opacity: 0.7;
+}
+
+nav a {
+    color:#82490D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family:  'Quicksand', sans-serif
+  }
+
+nav a:hover{
+  font-weight: bold;
+ background-color: #82490D;
+ color: white;
 }
 
 #joke {
