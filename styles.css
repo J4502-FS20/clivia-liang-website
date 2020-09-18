@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color:#16642E
+    background-color:#16642E;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
@@ -34,7 +34,7 @@ a {
 
 nav a {
     text-transform: uppercase;}
-    
+
 a:hover {
     font-weight: bold;
     background-color: #A56206;
