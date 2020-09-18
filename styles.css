@@ -15,14 +15,14 @@ nav {
 
 h1 {
     font-family:  'Vollkorn', serif;
-    font-size: 27px;
+    font-size: 36px;
     text-transform: uppercase;
 }
 
 p {
     font-family:  'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 
@@ -35,6 +35,8 @@ a {
 }
 
 nav a {
+   font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;}
 
 a:hover {
@@ -61,7 +63,7 @@ a:hover {
 #joke h2 {
     font-weight: bold;
     font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 img {
