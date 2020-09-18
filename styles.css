@@ -19,7 +19,7 @@ h1 {
     text-transform: uppercase;
 }
 
-p {
+main p {
     font-family:  'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 25px;
@@ -72,7 +72,7 @@ nav a:hover{
 #joke p {
     font-family: 'Grandstander', cursive;
     font-weight: bold;
-
+    font-size: 25px;
 }
 
 #joke h2 {
