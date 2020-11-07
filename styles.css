@@ -4,7 +4,6 @@ body {
 }
 
 nav {text-align: left;
-    text-align: center;
   display: flex;
     background-color:#8AD5CC;
     padding-top: 20px;
@@ -17,7 +16,7 @@ nav {text-align: left;
   justify-content: flex-start;
 }
 
-.container{display: flex;
+nav {display: flex;
   flex-direction: row;
   flex-flow:row wrap;
   justify-content:space-around;
