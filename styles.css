@@ -48,6 +48,7 @@ a:hover {
 }
 
 nav a {
+  display: inline-block;
     color:#82490D;
     text-decoration: none;
     font-weight: bold;
