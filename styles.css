@@ -106,11 +106,12 @@ img {
 ul {
     list-style-type: none;
 }
-@media screen and (max-width: 800px) {
-  nav {
-    justify-content: space-between;
-  }
-}
+@media all and (min-width: 960px) {
+    .menu {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+    }
 @media screen and (max-width: 600px) {
   nav{
     flex-flow: column wrap;
