@@ -126,7 +126,7 @@ ul {
 @media screen and (max-width: 600px) {
   nav{
     flex-flow: column wrap;
-    padding: 0;
+    padding: 10px;
   }
 nav a {
     text-align: center;
