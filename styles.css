@@ -15,11 +15,8 @@ nav {text-align: left;
     margin-bottom: 40px;
     display: flex;
   justify-content: flex-start;
-  justify-content: flex-end;
-  justify-content: center;
-  justify-content: space-around;
 }
-  }
+
 .container{display: flex;
   flex-direction: row;
   flex-flow:row wrap;
