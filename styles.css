@@ -19,8 +19,9 @@ nav {text-align: left;
 nav {display: flex;
   flex-direction: row;
   flex-flow:row wrap;
-  justify-content:space-around;
-   list-style: none;}
+   list-style: none;
+      justify-content: space-between;
+      align-items: center;}
 h1 {
     font-family:  'Vollkorn', serif;
     font-size: 36px;
@@ -52,6 +53,8 @@ a:hover {
 }
 
 nav a {
+  display: block;
+    padding: 15px 5px;
   display: inline-block;
     color:#82490D;
     text-decoration: none;
