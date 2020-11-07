@@ -12,7 +12,11 @@ nav {
     margin-right: auto;
     margin-bottom: 40px
   }
-
+.container{display: flex;
+  flex-direction: row;
+  flex-flow:row wrap;
+  justify-content:space-around;
+   list-style: none;}
 h1 {
     font-family:  'Vollkorn', serif;
     font-size: 36px;
@@ -94,3 +98,18 @@ img {
 ul {
     list-style-type: none;
 }
+@media screen and (max-width: 800px) {
+  nav {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav{
+    flex-flow: column wrap;
+    padding: 1;
+  }
+nav a {
+    text-align: center;
+      padding: 10px;
+  }
+  }
