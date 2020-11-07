@@ -123,13 +123,16 @@ ul {
       justify-content: space-around;
     }
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   nav{
     flex-flow: column wrap;
-    padding: 0px;
+    padding: 80px;
   }
 nav a {
     text-align: center;
-      padding: 70px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
   }
   }
