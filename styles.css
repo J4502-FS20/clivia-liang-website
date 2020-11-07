@@ -11,6 +11,7 @@ nav {
     margin-right: auto;
     margin-bottom: 40px;
       align-items: center;
+        width: 100%;
   }
   nav a {
       color:#82490D;
@@ -63,7 +64,6 @@ a:hover {
 nav a {
   display: block;
     padding: 15px 5px;
-  display: inline-block;
     color:#82490D;
     text-decoration: none;
     font-weight: bold;
@@ -117,15 +117,15 @@ ul {
     list-style-type: none;
 }
 @media all and (min-width: 800px) {
-    .container {
+    nav {
         align-items: flex-start;
         flex-flow: row wrap;
-        background: none;
+      justify-content: space-around;
     }
 @media screen and (max-width: 600px) {
   nav{
     flex-flow: column wrap;
-    padding: 1;
+    padding: 0;
   }
 nav a {
     text-align: center;
