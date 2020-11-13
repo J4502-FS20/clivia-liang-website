@@ -123,6 +123,7 @@ ul {
   nav{
     flex-flow: column wrap;
     padding: 80px;
+    justify-content: center;
   }
 nav a {
     text-align: center;
